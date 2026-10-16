@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexis Piron – Portfolio | Com'Alexis</title>
+  <meta name="description" content="Alexis Piron, étudiant en E-Business et fondateur de l'agence Com'Alexis : journalisme, relations publiques, médiation culturelle et réalisation audiovisuelle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navigation principale">
+      <a class="brand" href="index.html"><img class="brand-logo" src="img/logo-ap.png" alt="" width="52" height="30">Com'<b>Alexis</b></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">&#9776;</button>
+      <ul class="nav-list" id="menu">
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Communiquer, c'est mon terrain de jeu.</h1>
+          <h2>Alexis Piron – Étudiant en E-Business à la <strong>HEPH Condorcet</strong> et fondateur de <strong>Com'Alexis</strong>.</h2>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="portfolio.html">Découvrir mes projets</a>
+            <a class="btn btn--ghost" href="contact.html">Me contacter</a>
+          </div>
+        </div>
+        <div class="frame portrait">
+          <span class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <img src="img/alexis.png" alt="Alexis Piron, fondateur de Com'Alexis" width="450" height="700">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="terrains">
+      <div class="container">
+        <h2 class="section-title" id="terrains">Un profil, 4 terrains</h2>
+        <div class="grid-4">
+          <article class="terrain"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg></div><h3>Journalisme</h3><p>Articles, storytelling visuel et vidéo.</p></article>
+          <article class="terrain"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0014 0M12 17v5"/></svg></div><h3>Relations publiques</h3><p>Communication, événements et gestion digitale.</p></article>
+          <article class="terrain"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-7 10 7z"/></svg></div><h3>Médiation culturelle</h3><p>Action culturelle et contenus pour le public.</p></article>
+          <article class="terrain"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-3v10l-6-3z"/></svg></div><h3>Réalisation audiovisuelle</h3><p>Tournage, montage et mise en images.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="couteau">
+      <div class="container">
+        <h2 class="section-title" id="couteau">Le Couteau-Suisse</h2>
+        <div class="skills-grid">
+          <div class="skill-block">
+            <h3>Compétences</h3>
+            <ul class="tags"><li>Montage</li><li>Rédaction</li><li>Web</li></ul>
+          </div>
+          <div class="skill-block">
+            <h3>Outils</h3>
+            <div class="tools">
+              <div class="tool tool--ai"><span>Ai</span>Illustrator</div>
+              <div class="tool tool--ps"><span>Ps</span>Photoshop</div>
+              <div class="tool tool--id"><span>Id</span>InDesign</div>
+              <div class="tool tool--lr"><span>Lr</span>Lightroom</div>
+            </div>
+            <div class="tools tools--odoo"><div class="tool tool--odoo"><span>odoo</span>Odoo</div></div>
+          </div>
+          <div class="skill-block">
+            <h3>Langues</h3>
+            <ul class="tags"><li>Anglais</li><li>Néerlandais</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p style="margin:0">© 2026 Alexis Piron – Com'Alexis</p>
+      <p style="margin:0"><a href="mailto:alexispiron@hotmail.com">alexispiron@hotmail.com</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

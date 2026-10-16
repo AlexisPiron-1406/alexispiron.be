@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Alexis Piron</title>
+  <meta name="description" content="Réalisations audiovisuelles, web et print d'Alexis Piron.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navigation principale">
+      <a class="brand" href="index.html"><img class="brand-logo" src="img/logo-ap.png" alt="" width="52" height="30">Com'<b>Alexis</b></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">&#9776;</button>
+      <ul class="nav-list" id="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <h1>Réalisations</h1>
+        <p class="lead">Vidéos, sites web et créations print, réalisés pour Com'Alexis et mes expériences.</p>
+        <div class="filters" role="group" aria-label="Filtrer les projets">
+          <button class="filter" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="filter" data-filter="audiovisuel" aria-pressed="false">Audiovisuel</button>
+          <button class="filter" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter" data-filter="print" aria-pressed="false">Print</button>
+        </div>
+        <div class="work-grid">
+          <figure class="work work--wide" data-category="audiovisuel">
+          <div class="video-wrap">
+            <!-- Remplace VIDEO_ID par l'identifiant de ta vidéo YouTube -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Titre de la vidéo 1" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <figcaption><span class="badge">Audiovisuel</span><h3>Titre de la vidéo 1</h3><p>Description courte du projet.</p></figcaption>
+          </figure>
+          <figure class="work" data-category="web">
+          <!-- Remplace ce bloc par : <img src="img/ton-fichier.jpg" alt="Site web – Client 1" loading="lazy"> -->
+          <div class="media-ph">Visuel mockup site web<br>à ajouter</div>
+          <figcaption><span class="badge">Web</span><h3>Site web – Client 1</h3><p>Création de site pour un client local.</p></figcaption>
+          </figure>
+          <figure class="work" data-category="print">
+          <!-- Remplace ce bloc par : <img src="img/ton-fichier.jpg" alt="Création print 1" loading="lazy"> -->
+          <div class="media-ph">Visuel print<br>à ajouter</div>
+          <figcaption><span class="badge">Print</span><h3>Création print 1</h3><p>Affiche, flyer ou carte de visite.</p></figcaption>
+          </figure>
+          <figure class="work work--wide" data-category="audiovisuel">
+          <div class="video-wrap">
+            <!-- Remplace VIDEO_ID par l'identifiant de ta vidéo YouTube -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Titre de la vidéo 2" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <figcaption><span class="badge">Audiovisuel</span><h3>Titre de la vidéo 2</h3><p>Description courte du projet.</p></figcaption>
+          </figure>
+          <figure class="work" data-category="web">
+          <!-- Remplace ce bloc par : <img src="img/ton-fichier.jpg" alt="Site web – Client 2" loading="lazy"> -->
+          <div class="media-ph">Visuel mockup site web<br>à ajouter</div>
+          <figcaption><span class="badge">Web</span><h3>Site web – Client 2</h3><p>Maquette et intégration.</p></figcaption>
+          </figure>
+          <figure class="work" data-category="print">
+          <!-- Remplace ce bloc par : <img src="img/ton-fichier.jpg" alt="Création print 2" loading="lazy"> -->
+          <div class="media-ph">Visuel print<br>à ajouter</div>
+          <figcaption><span class="badge">Print</span><h3>Création print 2</h3><p>Identité visuelle et supports imprimés.</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p style="margin:0">© 2026 Alexis Piron – Com'Alexis</p>
+      <p style="margin:0"><a href="mailto:alexispiron@hotmail.com">alexispiron@hotmail.com</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
